@@ -9,7 +9,7 @@ internet without changing the module.
 
 ```hcl
 module "route_table" {
-  source = "github.com/cybercapybara/terraform-azurerm-route-table"
+  source = "github.com/moveeeax/terraform-azurerm-route-table"
 
   name                = "egress-rt"
   resource_group_name = "prod-rg"
